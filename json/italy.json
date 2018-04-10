@@ -1,0 +1,205 @@
+{
+	"country": "Italy",
+	"category" : [
+		{
+			"name": "Automotive",
+			"icon": "assets/automotive.png",
+			"valueA": 33,
+			"valueB": 33,
+			"valueC": 33,
+			"valueD": 33
+		},
+		{
+			"name": "Baby",
+			"icon": "assets/baby.png",
+			"valueA": 67,
+			"valueB": 67,
+			"valueC": 67,
+			"valueD": 67
+		},
+		{
+			"name": "Beauty",
+			"icon": "assets/beauty.png",
+			"valueA": 86,
+			"valueB": 86,
+			"valueC": 86,
+			"valueD": 86
+		},
+		{
+			"name": "Books",
+			"icon": "assets/books.png",
+			"valueA": 60,
+			"valueB": 60,
+			"valueC": 60,
+			"valueD": 60
+		},
+		{
+			"name": "Clothing, Shoes and Jewelry",
+			"icon": "assets/clothing.png",
+			"valueA": 55,
+			"valueB": 55,
+			"valueC": 55,
+			"valueD": 55
+		},
+		{
+			"name": "Computers and Accesories",
+			"icon": "assets/computer.png",
+			"valueA": 91,
+			"valueB": 91,
+			"valueC": 91,
+			"valueD": 91
+		},
+		{
+			"name": "Electronics",
+			"icon": "assets/electronics.png",
+			"valueA": 87,
+			"valueB": 87,
+			"valueC": 87,
+			"valueD": 87
+		},
+		{
+			"name": "Grocery and Gourmet Food",
+			"icon": "assets/grocery.png",
+			"valueA": 61,
+			"valueB": 61,
+			"valueC": 61,
+			"valueD": 61
+		},
+		{
+			"name": "Health and Personal Care",
+			"icon": "assets/healthPersonalCare.png",
+			"valueA": 79,
+			"valueB": 79,
+			"valueC": 79,
+			"valueD": 79
+		},
+		{
+			"name": "Home and Garden",
+			"icon": "assets/homeGarden.png",
+			"valueA": 51,
+			"valueB": 51,
+			"valueC": 51,
+			"valueD": 51
+		},
+		{
+			"name": "Home and Kitchen",
+			"icon": "assets/homeKitchen.png",
+			"valueA": 63,
+			"valueB": 63,
+			"valueC": 63,
+			"valueD": 63
+		},
+		{
+			"name": "Industrial and Scienntific",
+			"icon": "assets/industrial.png",
+			"valueA": 37,
+			"valueB": 37,
+			"valueC": 37,
+			"valueD": 37
+		},
+		{
+			"name": "Musical Instruments",
+			"icon": "assets/musicalInstruments.png",
+			"valueA": 30,
+			"valueB": 30,
+			"valueC": 30,
+			"valueD": 30
+		},
+		{
+			"name": "Software",
+			"icon": "assets/software.png",
+			"valueA": 99,
+			"valueB": 99,
+			"valueC": 99,
+			"valueD": 99
+		},
+		{
+			"name": "Sports and Outdoors",
+			"icon": "assets/sport.png",
+			"valueA": 90,
+			"valueB": 90,
+			"valueC": 90,
+			"valueD": 90
+		},
+		{
+			"name": "Toys and Games",
+			"icon": "assets/toy.png",
+			"valueA": 86,
+			"valueB": 86,
+			"valueC": 86,
+			"valueD": 86
+		},
+		{
+			"name": "Video Games",
+			"icon": "assets/videoGames.png",
+			"valueA": 69,
+			"valueB": 69,
+			"valueC": 69,
+			"valueD": 69
+		},
+		{
+			"name": "Watches",
+			"icon": "assets/watches.png",
+			"valueA": 50,
+			"valueB": 50,
+			"valueC": 50,
+			"valueD": 50
+		},
+		{
+			"name": "DVD",
+			"icon": "assets/dvd.png",
+			"valueA": 50,
+			"valueB": 50,
+			"valueC": 50,
+			"valueD": 50
+		},
+		{
+			"name": "Jewelry",
+			"icon": "assets/jewelry.png",
+			"valueA": 50,
+			"valueB": 50,
+			"valueC": 50,
+			"valueD": 50
+		},
+		{
+			"name": "Luggage and Bags",
+			"icon": "assets/luggage.png",
+			"valueA": 50,
+			"valueB": 50,
+			"valueC": 50,
+			"valueD": 50
+		},
+		{
+			"name": "Shoes and Handbags",
+			"icon": "assets/shoesHandbags.png",
+			"valueA": 50,
+			"valueB": 50,
+			"valueC": 50,
+			"valueD": 50
+		},
+		{
+			"name": "Lighting",
+			"icon": "assets/lighting.png",
+			"valueA": 50,
+			"valueB": 50,
+			"valueC": 50,
+			"valueD": 50
+		},
+		{
+			"name": "DIT and Tools",
+			"icon": "assets/diyTools.png",
+			"valueA": 50,
+			"valueB": 50,
+			"valueC": 50,
+			"valueD": 50
+		},
+		{
+			"name": "Movies and TV shows",
+			"icon": "assets/movies.png",
+			"valueA": 50,
+			"valueB": 50,
+			"valueC": 50,
+			"valueD": 50
+		}
+	]
+}

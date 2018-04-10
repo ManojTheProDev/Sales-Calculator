@@ -1,0 +1,245 @@
+/* fonts */
+@font-face {
+    font-family: 'TrajanPro-Regular';
+    src: url("assets/fonts/TrajanPro-Regular.ttf");
+}
+
+@font-face {
+    font-family: 'Berthold';
+    src: url("assets/fonts/Berthold-Script-Medium.otf");
+}
+
+@font-face {
+    font-family: 'Sun-Sans-Regular';
+    src: url("assets/fonts/Sun Sans Regular.ttf");
+}
+
+/* fonts */
+
+/*  reset bootstrap */
+ul{
+	padding-left:0px;
+	list-style-type: none;
+}
+
+.card-front div{
+	background-color: transparent;
+}
+/*  reset bootstrap */
+
+
+/*  common css */
+.inline-block{
+	display: inline-block;
+}
+.flex{
+	display: flex;
+}
+.middle-aligned{
+	vertical-align: middle;
+}
+
+/*  common css */
+
+.header-content-wrapper{
+	padding: 20px 15px;
+}
+.navbar-default{
+	background-color: transparent;
+    border-color: transparent;
+    margin: 0;
+    min-height: 20px;
+}
+
+.no-padding{
+	padding:0;
+}
+.no-left-padding{
+	padding-left: 0;
+}
+.no-top-padding{
+	padding-top: : 0;
+}
+.no-right-padding{
+	padding-right: 0;
+}
+.no-bottom-padding{
+	padding-bottom: 0;
+}
+
+.row{
+	margin:0;
+}
+
+.mobile-logo{
+	height: 50px;
+	margin-left: calc( 33.33% - 30px );
+}
+
+/* header */
+
+.header-navigation-wrapper{
+	flex-direction: row;
+	align-items: right;
+	justify-content: flex-end;
+}
+.header-navigation{
+	margin: 20px;
+	font-size: 25px;
+
+}
+
+.large-logo-image{
+	height: 80px;
+}
+
+
+
+/* Section two starts */
+
+.section-two{
+	width: 100%;
+	background: url("assets/calculator.jpg") no-repeat;
+	background-size: cover;
+}
+.card-front{
+	width: 100%;
+	height: 100vh;
+	color: #fff;
+	background-color: rgba(0,0,0, 0.85);
+	position: relative;
+}
+.market-places{
+	padding-left: 20px;
+}
+.market-place{
+	vertical-align: middle;
+	padding: 10px;
+	border: 1px solid #fff;
+}
+.market-place:first-child{
+	margin-left: 0px;
+}
+.name-and-image{
+	text-align: left;
+}
+.market-place-image{
+	width: 55px;
+	border:2px solid #fff;
+	border-radius: 50%;
+}
+/*.market-place:hover{*/
+	/*-ms-transform: scale(1.2, 1.2); /* IE 9 */
+    /*-webkit-transform: scale(1.2, 1.2); /* Safari */
+    /*transform: scale(1.2, 1.2);*/
+/*}*/
+.choose-market-text{
+	padding-top: 30px;
+	padding-bottom: 30px;
+	font-family: 'TrajanPro-Regular';
+	font-size: 30px;
+}
+.choose-market-place{
+	text-align: center;
+}
+
+.market-place-name{
+	font-size: 24px;
+	font-family: 'Sun-Sans-Regular';
+	letter-spacing: 0.5px;
+}
+/* categories */
+
+.choose-category{
+	text-align: center;
+	max-height: 100%;
+	overflow-y: scroll;
+}
+
+.market-category-image{
+	width: 100%;
+	/*background-color: #3ea7fe;*/
+	/*background-color: #fff;*/
+	border: 2px solid #fff;
+	border-radius: 50%;
+	padding: 20px;
+	box-sizing: border-box;
+}
+.market-category{
+	width: 120px;
+    height: 230px;
+	vertical-align: middle;
+	margin:0px 20px 10px 20px;
+}
+.market-category-name{
+	font-size: 20px;
+	font-family: 'Sun-Sans-Regular';
+	letter-spacing: 0.5px;
+	padding-top: 15px;
+	text-align: center;
+}
+.market-categories{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	flex-wrap: wrap;
+}
+/*.market-category:hover .market-category-image{
+	-ms-transform: scale(1.2, 1.2);  IE 9 
+    -webkit-transform: scale(1.2, 1.2);  Safari 
+    transform: scale(1.2, 1.2);
+}*/
+
+
+/* arrow box */
+
+.arrow_box {
+	position: relative;
+	background: transparent;
+	border: 1px solid #fff;
+}
+.arrow_box:after, .arrow_box:before {
+	left: 100%;
+	top: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+
+.arrow_box:after {
+	border-color: rgba(255, 255, 255, 0);
+	border-left-color: #fff;
+	border-width: 15px;
+	margin-top: -15px;
+}
+.arrow_box:before {
+	border-color: rgba(255, 255, 255, 0);
+	border-left-color: #fff;
+	border-width: 21px;
+	margin-top: -21px;
+}
+
+/* popup */
+div.popup-content{
+	width: 40%;
+	height: 40%;
+	background: #fff;
+	color: #333;
+	text-align:left;
+	position: absolute;
+	top:30%;
+	left: 30%;
+	z-index: 2;
+}
+
+div.background-cover{
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	opacity:0.5;
+	z-index: 1;
+	background-color: #fff;
+}
